@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400&family=Montserrat:wght@200;300;400;500;600;700;800;900&family=Sacramento&family=Ubuntu:ital,wght@0,400;0,500;1,300&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+}
+
+/*nav section*/
+
+
+/* title section */
+.title{
+  overflow: hidden;
+  height: 100vh;
+  background: #ff4c68;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.myNav{
+  padding: 2% 10%;
+}
+.myNav .nav-item{
+margin: 0px 15px;
+}
+.myNav .nav-link{
+color:#fff;
+font-size: 1.1rem;
+}
+.myNav .nav-link:hover{
+color:#ccc;
+}
+
+.navbar-brand{
+  font-size: 3.2rem;
+  color:#fff;
+}
+.navbar-brand:hover{
+  /* opacity: 0.7; */
+  color: #ccc;
+}
+
+
+/* header inside title */
+header{
+  color: #fff;
+  padding: 5% 10%;
+}
+header img{
+
+width:60%;
+position: relative;
+left:70px;
+transform: rotate(30deg);
+}
+header h1{
+font-size: 4.4rem;
+margin-bottom: 30px;
+}
+
+
+.cta {
+  padding: 5% 17% ;
+  background-color: #ff4c68;
+  text-align: center;
+}
+
+.cta h1 {
+  color: white;
+  margin-bottom: 20px;
+  font-size: 60px;
+}
+
+/* footer */
+
+.footer {
+  text-align: center;
+  padding: 5%;
+}
+
+.footer i {
+  font-size: 20px;
+  padding: 0 10px;
+}
+
+.footer p {
+  /* padding: 15px; */
+  margin-top: 20px;
+  color: grey;
+}
+
+/* features */
+.features {
+  padding: 5% 10%;
+  text-align: center;
+}
+
+.features i {
+    font-size: 3.2rem;
+    color:#EF8172;
+    margin-bottom: 20px;
+}
+
+/* pricing */
+
+.pricing{
+    padding: 5% 10%;
+    text-align:center;
+}
+
+
+
+
+.card-body h1{
+    font-size: 60px;
+    font-weight: lighter;
+}
+
+.card-header{
+    font-size: 30px;
+}
+
+.card-text {
+    color: grey;
+}
+
+/* carousel */
+
+.carousel {
+  height: 750px;
+}
+
+.carousel-inner {
+  background-color: rgb(239, 129, 114);
+  height: 750px;
+}
+
+.carousel-item {
+  text-align: center;
+  color: white;
+}
+
+.carousel-item h1 {
+  
+  padding: 100px 250px 10px 250px;
+  font-size: 55px;
+  color: white;
+  font-weight: 250;
+}
+
+.carousel-item img {
+  
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  padding: 10px;
+  
+}
+
+.brands {
+  
+  padding-top: 550px;
+  text-align: center;
+  padding-bottom: 3%;
+  
+  
+}
+
+
+
+
+.brand-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+
